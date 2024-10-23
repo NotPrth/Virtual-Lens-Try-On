@@ -294,7 +294,7 @@ video_placeholder = st.empty()
 
 if st.session_state.webcam_active:
     # Start webcam feed
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(1)
 
     while st.session_state.webcam_active:
         ret, frame = cap.read()
