@@ -339,4 +339,4 @@ if st.session_state.webcam_active:
 
     # Release the webcam when stopped
     cap.release()
-    cv2.destroyAllWindows()
+  #  cv2.destroyAllWindows()
